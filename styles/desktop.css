@@ -1,0 +1,23 @@
+.section
+{
+  /*flex: 1 1 auto;*/
+  padding: 0 10px 10px 0;
+}
+
+.mainselection
+{
+    flex: 0 1 200px;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 70px 0 0 10px;
+}
+
+.sideselection
+{
+    flex: 0 1 200px;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 70px 0 0 10px;
+}
