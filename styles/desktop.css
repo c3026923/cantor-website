@@ -1,23 +1,12 @@
 section
 {
-  /*flex: 1 1 auto;*/
+  flex: 1 1 auto;
   padding: 0 10px 10px 0;
 }
 
-.mainselection
+.overall_container
 {
-    flex: 0 1 200px;
-    padding: 20px 40px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 70px 0 0 10px;
-}
-
-.sideselection
-{
-    flex: 0 1 200px;
-    padding: 20px 40px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 70px 0 0 10px;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 600px
 }
