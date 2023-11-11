@@ -1,12 +1,15 @@
 section
 {
-  flex: 1 1 auto;
   padding: 0 10px 10px 0;
 }
 
-.overall_container
+.overall-container
 {
-    margin: auto;
     max-width: 1200px;
     min-width: 600px
+}
+
+.navigation-item, a
+{
+    font-size: 32px;
 }
