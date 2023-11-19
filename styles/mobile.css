@@ -143,6 +143,18 @@ a
     margin-right: 3.5px;
 }
 
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-even
+{
+    flex-basis: 50%;
+}
+
 .flex-left
 {
     display: flex;
