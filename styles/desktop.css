@@ -3,13 +3,30 @@ section
   padding: 0 10px 10px 0;
 }
 
-.overall-container
+body
 {
-    max-width: 1200px;
-    min-width: 600px
+  margin: auto;
+  max-width: 1200px;
+  min-width: 700px
 }
 
-.navigation-item, a
+.navigation-container
 {
-    font-size: 32px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-self: flex-end;
+  margin-right: auto;
+}
+
+.navigation-item
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.navigation-item a
+{
+  font-size: 12px;
 }
