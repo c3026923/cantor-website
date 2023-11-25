@@ -21,12 +21,18 @@ body
 
 .navigation-item
 {
-  padding-left: 10px;
-  padding-right: 10px;
-  
+  background-image: none;
+  flex: auto;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .navigation-item a
 {
-  font-size: 12px;
+  font-size: 14px;
+}
+
+header
+{
+    margin-right: 14.5px;
 }

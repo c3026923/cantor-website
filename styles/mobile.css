@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=PT+Serif&display=swap');
 
-.overall-container
+body
 {
     margin: auto;
+    min-width: 390px
 }
 
 .margin-left-right
@@ -11,6 +12,7 @@
     margin-right: 5px;
 }
 
+
 header
 {
     margin-left: 3.5px;
@@ -18,6 +20,10 @@ header
     padding: 2.5px 20px;
     background-color: #69141b;
     color: white;
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 footer
@@ -89,6 +95,12 @@ a
 {
     display: flex;
     flex-wrap: wrap;
+}
+
+.TARGET
+{
+    display: flex;
+    align-items: center;
 }
 
 .navigation-item
