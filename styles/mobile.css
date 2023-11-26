@@ -29,30 +29,30 @@ header
 footer
 {
     display: flex;
-    padding: 30px;
-    background-color: #69141b;
+    background-color: #69141B;
     color: white;
     align-items: flex-end;
-    font-size: 12px;
     margin-left: 3.5px;
     margin-right: 3.5px;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .footer-container
 {
     flex-basis: 100%;
     flex-shrink: 0;
+    padding: 30px;
     max-width: 100%;
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 5px;
+    border-bottom-color: #63BE79;
 }
 
 .footer-container-inner-initial
 {
     display: flex;
     align-items: flex-end;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .footer-container-inner-final
@@ -60,6 +60,16 @@ footer
     box-sizing: border-box;
     flex-basis: 50%;
     max-width: 50%;
+}
+
+.footer-bottom
+{
+    background-color: #146928;
+    display: flex;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
 }
 
 ol

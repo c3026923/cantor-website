@@ -7,7 +7,7 @@ body
 {
   margin: auto;
   max-width: 1200px;
-  min-width: 700px
+  min-width: 700px;
 }
 
 .navigation-container
@@ -21,10 +21,11 @@ body
 
 .navigation-item
 {
-  background-image: none;
   flex: auto;
+  align-content: space-evenly;
   padding-left: 0px;
   padding-right: 0px;
+  background-image: none;
 }
 
 .navigation-item a
@@ -35,4 +36,9 @@ body
 header
 {
     margin-right: 14.5px;
+}
+
+.TARGET
+{
+  justify-content: space-evenly;
 }
