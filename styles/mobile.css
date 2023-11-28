@@ -3,8 +3,67 @@
 body
 {
     margin: auto;
-    min-width: 390px;
     background-color: white;
+    transition: all 0.25s ease-in-out;
+}
+
+body.dark
+{
+    background-color: #212121;
+    color: white;
+}
+
+.dark-mode-toggle-container /* Concept of making toggle dark mode button from https://www.youtube.com/watch?v=TyITCYwsWHs*/
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dark-mode-toggle-button
+{
+    position: relative;
+    height: 26px;
+    width: 60px;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #63BE79;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dark-mode-toggle-button.active::before
+{
+    background-color: #212121;
+    left: calc(100% - 20px - 3.75px);
+}
+
+.dark-mode-toggle-button::before
+{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 3.75px;
+    transform: translateY(-50%);
+    transition: all 0.25s ease-in-out;
+}
+
+.resize-image
+{
+    width: 100%;
+    height: auto;
+}
+
+.resize-image-small
+{
+    width: 33%;
+    height: auto;
 }
 
 .margin-left-right
@@ -149,18 +208,6 @@ a
 .flex-right
 {    
     flex-basis: 40%;
-}
-
-.resize-image
-{
-    width: 100%;
-    height: auto;
-}
-
-.resize-image-small
-{
-    width: 30%;
-    height: auto;
 }
 
 .grey-out
