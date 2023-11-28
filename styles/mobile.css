@@ -3,7 +3,8 @@
 body
 {
     margin: auto;
-    min-width: 390px
+    min-width: 390px;
+    background-color: white;
 }
 
 .margin-left-right
@@ -11,7 +12,6 @@ body
     margin-left: 5px;
     margin-right: 5px;
 }
-
 
 header
 {
@@ -82,35 +82,12 @@ a
     color: blue;
 }
 
-.navigation-item a
-{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-family: 'PT Serif', serif;
-    font-size: 16px;
-}
-
-.navigation-item-singular a
-{
-    display: inline-block;
-    width: 98.8%;
-    color: white;
-    text-decoration: none;
-    font-family: 'PT Serif', serif;
-    font-size: 16px;
-}
 
 .navigation-container
 {
     display: flex;
     flex-wrap: wrap;
-}
-
-.TARGET
-{
-    display: flex;
-    align-items: center;
+    margin-bottom: 5px;
 }
 
 .navigation-item
@@ -124,36 +101,31 @@ a
     transition: all .5s linear;
 }
 
-.navigation-item-singular
-{
-    flex: 1 1 33%;
-    margin: 3.5px;
-    padding: 3.5px;
-    background-image: linear-gradient(to right, transparent, transparent 50%,#69141b 50%, #69141b);
-    background-position: 100% 0;
-    background-size: 200% 100%;
-    transition: all .5s linear;
-}
-
 .navigation-item:hover
 {
-    transform: scale(1.01);
-    background-color: #69141b;
+    transform: scale(1.02);
+    background-color: #63BE79;
     background-position: 0 0;
 }
 
-.navigation-item-singular:hover
+.navigation-item a
 {
-    transform: scale(1.01);
-    background-color: #69141b;
-    background-position: 0 0;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+}
+
+.navigation-item a:hover
+{
+    transition: all .25s linear;
 }
 
 .page-segment-solid-color
 {
     display: flex;
-    background-color: #69141b;
-    color:white;
+    background-color: #63BE79;
     margin-left: 3.5px;
     margin-right: 3.5px;
 }
@@ -163,18 +135,6 @@ a
     display: flex;
     margin-left: 3.5px;
     margin-right: 3.5px;
-}
-
-.flex-container
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.flex-even
-{
-    flex-basis: 50%;
 }
 
 .flex-left
@@ -206,4 +166,10 @@ a
 .grey-out
 {
     color: grey;
+}
+
+#target-position
+{
+    display: flex;
+    align-items: center;
 }

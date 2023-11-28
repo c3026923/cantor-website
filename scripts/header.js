@@ -1,6 +1,6 @@
-const divHeaderLogo = document.querySelector(".TARGET");
-const divNavigation = document.querySelector(".MOVEME");  
-const divOriginal = document.querySelector(".ORIGINAL");
+const divTarget = document.getElementById("target-position");
+const divNavigation = document.getElementById("move-this");  
+const divOriginal = document.getElementById("original-position");
 
 window.addEventListener('resize', resize); //Concept for having an event listener for screen width from https://stackoverflow.com/questions/39557244/run-code-if-screen-has-certain-width
 
@@ -10,7 +10,7 @@ if (window.innerWidth < 700)
     }
     else
     {
-        divHeaderLogo.appendChild(divNavigation);
+        divTarget.appendChild(divNavigation);
     }
 
 function resize() 
@@ -21,6 +21,6 @@ function resize()
     }
     else
     {
-        divHeaderLogo.appendChild(divNavigation);
+        divTarget.appendChild(divNavigation);
     }
 }
