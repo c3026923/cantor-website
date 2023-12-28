@@ -218,3 +218,14 @@ a
     display: flex;
     align-items: center;
 }
+
+table, tr, th, td
+{
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+body.dark table, body.dark tr, body.dark th, body.dark td
+{
+    border: 1px solid white;
+}
