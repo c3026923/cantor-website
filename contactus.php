@@ -1,4 +1,7 @@
 <?php include 'includes/head.php'; ?>
+<head>
+    <title>Cantor College | Contact Us</title>
+</head>
 <body>
     <div class="overall-container">
         <?php include 'includes/header.php'; ?>
@@ -21,7 +24,7 @@
                 </div>
             </div>
             <div class="page-segment-no-color">
-                <img src="images/map.jpg" alt="" width="1000" height="313" class="resize-image">
+                <img src="images/map.jpg" alt="A map of Canor College." width="1000" height="313" class="resize-image">
             </div>
         </section>
         <?php include 'includes/footer.php'; ?>

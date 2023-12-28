@@ -1,4 +1,7 @@
 <?php include 'includes/head.php'; ?>
+<head>
+    <title>Cantor College | About Us</title>
+</head>
 <body>
     <div class="overall-container">
         <?php include 'includes/header.php'; ?>
@@ -15,7 +18,7 @@
                     support can help to get the most out of your time with Cantor College, both as a student and in your
                     future career.</p>
             </div>
-            <img src="images/exterior-wide.jpg" alt="" width="800" height="250" class="resize-image">
+            <img src="images/exterior-wide.jpg" alt="Exterior view of Cantor College, focused on showing the scale of the main building." width="800" height="250" class="resize-image">
         </section>
         <?php include 'includes/footer.php'; ?>
 </body>

@@ -1,4 +1,7 @@
 <?php include 'includes/head.php'; ?>
+<head>
+    <title>Cantor College | Computing Courses</title>
+</head>
 <body>
     <div class="overall-container">
         <?php include 'includes/header.php'; ?>
@@ -20,7 +23,7 @@
                     </p>
                 </div>
             </div>
-            <img src="images/playstation-lab.jpg" alt="" width="899" height="281" class="resize-image">
+            <img src="images/playstation-lab.jpg" alt="An image focused on a Playstation controller from the Playstation Lab." width="899" height="281" class="resize-image">
         </section>
         <?php include 'includes/footer.php'; ?>
     </div>

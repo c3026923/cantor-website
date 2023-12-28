@@ -1,4 +1,7 @@
 <?php include 'includes/head.php'; ?>
+<head>
+    <title>Cantor College | Business Information</title>
+</head>
 <body>
     <?php include 'includes/header.php'; ?>
     <?php include 'includes/navigation.php'; ?>
@@ -24,9 +27,11 @@
                     C2C2C C2C and user-proof operation is frequently considered a terrific achievement. Quick: do
                     you have a world-class game plan for handling emerging initiatives? Our technology takes the
                     best aspects of PNG and SVG.</p>
-        </div>
-        <img src="images/sky.jpg" alt="" width="816" height="255" class="resize-image">
+            </div>
+            <img src="images/sky.jpg" alt="Exterior view of Cantor College, displaying a bright blue sky background."
+                width="816" height="255" class="resize-image">
     </section>
     <?php include 'includes/footer.php'; ?>
 </body>
+
 </html>

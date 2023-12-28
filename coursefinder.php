@@ -1,4 +1,7 @@
 <?php include 'includes/head.php'; ?>
+<head>
+    <title>Cantor College | Course Finder</title>
+</head>
 <body>
     <div class="overall-container">
         <?php include 'includes/header.php'; ?>
@@ -10,11 +13,10 @@
                     <p>Implement the ability to search for courses here.</p>
                 </div>
             </div>
-            <img src="images/discover.jpg" alt="" width="1156" height="361" class="resize-image">
+            <img src="images/discover.jpg" alt="Exterior view of Cantor College, showcasing the 'Discover Your Imagination' slogan." width="1156" height="361" class="resize-image">
         </section>
         <?php include 'includes/footer.php'; ?>
-    </div>
-    <?php
+        <?php
     $sql = "SELECT * FROM courses;";
     $result = mysqli_query($mysqli, $sql);
     $resultCheck = mysqli_num_rows($result);
@@ -25,4 +27,5 @@
         }
     }
     ?>
+    </div>
 </body>
