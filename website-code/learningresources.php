@@ -1,7 +1,9 @@
 <?php include 'includes/head.php'; ?>
+
 <head>
     <title>Cantor College | Learning Resources</title>
 </head>
+
 <body>
     <div class="overall-container">
         <?php include 'includes/header.php'; ?>
@@ -78,7 +80,8 @@
                     </ol>
                 </div>
             </div>
-            <img src="images/atrium-alt.jpg" alt="View of the atrium floor." width="810" height="254" class="resize-image">
+            <img src="images/atrium-alt.jpg" alt="View of the atrium floor." width="810" height="254"
+                class="resize-image">
         </section>
         <?php include 'includes/footer.php'; ?>
     </div>

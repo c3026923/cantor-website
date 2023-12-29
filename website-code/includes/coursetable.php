@@ -1,5 +1,5 @@
 <form action="coursefinder.php" method="post">
-    <input type="text" name="valueToSearch" placeholder="Value to Search"><br></br>
+    <input type="text" name="valueToSearch" placeholder="Please enter search query.">  Please note that queries are exact/case-sensitive.<br></br>
     <input type="submit" name="search" value="Filter"><br></br>
     <table>
         <tr>

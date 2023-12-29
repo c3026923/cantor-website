@@ -1,7 +1,9 @@
 <?php include 'includes/head.php'; ?>
+
 <head>
     <title>Cantor College | Business Information</title>
 </head>
+
 <body>
     <?php include 'includes/header.php'; ?>
     <?php include 'includes/navigation.php'; ?>

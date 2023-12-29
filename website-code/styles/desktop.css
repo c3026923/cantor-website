@@ -1,17 +1,14 @@
-section
-{
+section {
   padding: 0 10px 10px 0;
 }
 
-body
-{
+body {
   margin: auto;
   max-width: 1250px;
   min-width: 1200px;
 }
 
-.navigation-container
-{
+.navigation-container {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -20,8 +17,7 @@ body
   margin-bottom: 0px;
 }
 
-.navigation-item
-{
+.navigation-item {
   flex: auto;
   align-content: space-evenly;
   padding-left: 0px;
@@ -29,23 +25,19 @@ body
   background-image: none;
 }
 
-.navigation-item a
-{
+.navigation-item a {
   font-size: 14px;
 }
 
-header
-{
-    margin-right: 14.5px;
-    margin-bottom: 5px;
+header {
+  margin-right: 14.5px;
+  margin-bottom: 5px;
 }
 
-footer
-{
+footer {
   margin-right: 14.5px;
 }
 
-#target-position
-{
+#target-position {
   justify-content: space-evenly;
 }

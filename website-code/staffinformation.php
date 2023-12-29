@@ -1,7 +1,9 @@
 <?php include 'includes/head.php'; ?>
+
 <head>
     <title>Cantor College | Staff Information</title>
 </head>
+
 <body>
     <div class="overall-container">
         <?php include 'includes/header.php'; ?>
@@ -34,7 +36,9 @@
                         via the main helpdesk.</p>
                 </div>
             </div>
-            <img src="images/staff.jpg" alt="A distant view of a classroom in progress showing staff inside of the room." width="990" height="310" class="resize-image">
+            <img src="images/staff.jpg"
+                alt="A distant view of a classroom in progress showing staff inside of the room." width="990"
+                height="310" class="resize-image">
         </section>
         <?php include 'includes/footer.php'; ?>
     </div>

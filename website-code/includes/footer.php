@@ -13,6 +13,8 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>Copyright &copy; Cantor College <?php $year = date("y");?></p>
+        <p>Copyright &copy; Cantor College
+            <?php $year = date("y"); ?>
+        </p>
     </div>
 </footer>
